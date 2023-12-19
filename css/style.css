@@ -1,0 +1,172 @@
+/* Text */
+h1, h2, h3 , h4, h5, h6 {
+    font-family: 'Anton', sans-serif;
+  }
+  p {
+    font-family: 'Jura', sans-serif;
+  }
+  
+  /* Navigation bar */
+  
+  /* General */
+  .customNav {
+    position: fixed;
+    width: 100%;
+    background: url("../images/transparency.png");
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+  
+  /* Navigation dropdown menu */
+  .dropdown-menu {
+    background: url("../images/transparency.png");
+    background-color: transparent !important;
+    background-size: cover;
+  }
+  .dropdown-item:focus, .dropdown-item:hover {
+      color: #393d44;
+      text-decoration: none;
+      background: rgb(93, 98, 98);
+  }
+  
+  /* Navigation links */
+  .customNav a {
+    color: rgb(242, 234, 234) !important;
+  }
+  .navCTA {
+    font-size: 15px;
+  }
+  
+  /* Jumbotron  */
+  .jumbokBackground {
+    background-image: url(../images/blue-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Jumbotron copy */
+  .jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: rgb(70, 61, 61);
+    text-align: center;
+  }
+  
+  /* Cards */
+  .content {
+    padding: 50px;
+  }
+  .sectionHeading {
+    text-align: center;
+  }
+  .showsNear  {
+    padding: 0px 30px 30px 30px;
+  }
+  .cardContainer {
+    text-align: center;
+  }
+  
+  /* Content */
+.sideAccent {
+    background: #844ba7;
+    width: 15px;
+  }
+  .imageContainer img {
+    width: 100%;
+  }
+  .imageContainer {
+    padding: 50px;
+  }
+  .valueProp {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+
+  /* Contacts */
+
+  .contact-section {
+    padding-top: 5rem;
+  }
+  .contact-section .card {
+    border: 0;
+    border-bottom: 0.25rem solid #64a19d;
+  }
+  .contact-section .card h4 {
+    font-size: 0.8rem;
+    
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+  }
+  .contact-section .card hr {
+    border-color: #64a19d;
+    border-width: 0.25rem;
+    width: 3rem;
+  }
+  .contact-section .social {
+    margin-top: 5rem;
+  }
+  .contact-section .social a {
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    line-height: 3rem;
+    color: rgba(255, 255, 255, 0.3);
+  }
+  .contact-section .social a:hover {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .contact-section .social a:active {
+    color: #fff;
+  }
+  
+  .bg-black {
+    background-color: #000000 !important;
+  }
+  
+  footer {
+    padding: 25px 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #222222;
+  }
+  
+  footer p {
+    font-size: 12px;
+    margin: 0;
+  }
+  
+  footer ul {
+    margin-bottom: 0;
+  }
+  
+  footer ul li a {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.3);
+  }
+  
+  footer ul li a:hover,
+  footer ul li a:focus,
+  footer ul li a:active,
+  footer ul li a.active {
+    text-decoration: none;
+  }
